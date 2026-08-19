@@ -1,6 +1,5 @@
-# Generated deliverables can contain company data - keep them out of git
-# history by default. Remove this file (or add exceptions) if you want
-# specific reports version-controlled.
-*
-!.gitkeep
-!.gitignore
+# Generated deliverables ARE tracked in git now, so `@claude` runs triggered
+# from GitHub (issues/PRs) have somewhere persistent to save reports instead
+# of them vanishing when the job finishes. Only OS/editor junk is excluded.
+.DS_Store
+Thumbs.db
