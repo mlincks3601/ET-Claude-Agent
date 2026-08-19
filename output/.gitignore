@@ -1,0 +1,6 @@
+# Generated deliverables can contain company data - keep them out of git
+# history by default. Remove this file (or add exceptions) if you want
+# specific reports version-controlled.
+*
+!.gitkeep
+!.gitignore
